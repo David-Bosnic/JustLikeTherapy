@@ -1,12 +1,13 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
+    import image from '$lib/images/TempLogo-JustLikeTherapy.png'
 </script>
 
 <!-- App Shell -->
 <AppShell>
+
 	<svelte:fragment slot="header">
-		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
 				<a
@@ -15,7 +16,7 @@
                     target="_self"
                     rel="noreferrer"
                 >
-                <img src="static/svg/favicon.png" alt="logo" />
+                <img src="{image}" class="h-20 max-w-full rounded-lg" alt="Logo" />
                 </a>
                 <div class="text-xl" style="padding-left: 5%;">A place to learn and grow</div>
 			</svelte:fragment>
@@ -30,7 +31,7 @@
 				</a>
                 <a
                     class="btn btn-lg variant-soft-surface"
-                    href="/worksheets"
+                    href="/content/worksheets"
                     target="_self"
                     rel="noreferrer"
                 >
@@ -38,16 +39,21 @@
                 </a>
                 <a
                     class="btn btn-lg variant-soft-surface"
-                    href="/quizzes"
+                    href="/content/quizzes"
                     target="_self"
                     rel="noreferrer"
                 >
                     Quizzes
                 </a>
-				<LightSwitch />
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<!-- Page Route Content -->
+
+    <svelte:fragment slot="sidebarLeft">
+        <div class="p-10 border-2 border-sky-950"></div>
+    </svelte:fragment>
+    <svelte:fragment slot="sidebarRight">
+        <div class="p-10"></div>
+    </svelte:fragment>
 	<slot />
 </AppShell>

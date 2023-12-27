@@ -1,1 +1,1 @@
-<h1>Landing Page</h1>
+<h2 class="h2 text-center">Landing Page</h2>
