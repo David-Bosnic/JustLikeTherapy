@@ -10,10 +10,12 @@ const firebaseConfig = {
   storageBucket: "justliketherapy.appspot.com",
   messagingSenderId: "784707893926",
   appId: "1:784707893926:web:3fac52f2a03bf4c5e7d267",
-  measurementId: "G-L8CTY2JCXQ"
-}
+  measurementId: "G-L8CTY2JCXQ",
+  reCaptchaKey: "AIzaSyDVyl71jQNinf34Rnw9lCMds_86vEbQIFE",
+};
+
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore();
-export const auth = getAuth()
+export const auth = getAuth();
 export const storage = getStorage();
