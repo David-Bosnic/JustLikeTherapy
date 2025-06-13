@@ -94,7 +94,7 @@
 
 		<div class="text-center text-sm text-gray-600">
 			<p>Contact us: support@justliketherapy.com</p>
-			<p>Phone: +1 (123) 456-7890</p>
+			<p>Phone: (123)-456-789</p>
 		</div>
 	</div>
 </Drawer>
@@ -123,11 +123,6 @@
 					</a>
 					<a href="/content/articles">
 						<button class="btn btn-md hover:variant-ghost-primary font-semibold">Articles</button>
-					</a>
-					<a href="/recommendations">
-						<button class="btn btn-md hover:variant-ghost-primary font-semibold"
-							>Recommendations</button
-						>
 					</a>
 					<!-- <a href="/bugs"> -->
 					<!--   <button class="btn btn-md hover:variant-ghost-primary font-semibold" -->

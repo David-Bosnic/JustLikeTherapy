@@ -3,7 +3,7 @@
 	let sortType: string = 'List';
 </script>
 
-<h1 class="h1">Articles</h1>
+<h1 class="h1 font-semibold">Articles</h1>
 
 <svelte:head>
 	<title>JustLikeTherapy | Articles</title>

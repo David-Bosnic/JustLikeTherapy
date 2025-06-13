@@ -5,7 +5,7 @@
 	let sortType: string = 'List';
 </script>
 
-<h1 class="h1">Worksheets</h1>
+<h1 class="h1 font-semibold">Worksheets</h1>
 
 <svelte:head>
 	<title>JustLikeTherapy | Worksheets</title>

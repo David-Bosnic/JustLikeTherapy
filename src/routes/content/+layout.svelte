@@ -1,14 +1,8 @@
 <script lang="ts">
 	import { currentTopic } from '$lib/stores';
 	import { iconSize } from '$lib/stores';
-	import { AppShell, ListBox, ListBoxItem, RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
-	let topics: string = '';
-	let sortType: string = '';
+	import { AppShell, ListBox, ListBoxItem } from '@skeletonlabs/skeleton';
 </script>
-
-<!-- <svelte:head> -->
-<!-- 	<title>JustLikeTherapy</title> -->
-<!-- </svelte:head> -->
 
 <AppShell>
 	<svelte:fragment slot="sidebarLeft">
