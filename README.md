@@ -4,7 +4,7 @@ A mental health information platform built for a therapist client using SvelteKi
 
 ## 🌐 Live Demo
 
-[View Live Demo](jlt.davidbosnic.dev)
+[View Live Demo](https://jlt.davidbosnic.dev)
 
 ## 📖 About
 
