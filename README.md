@@ -1,38 +1,49 @@
-# create-svelte
+# Just Like Therapy
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A mental health information platform built for a therapist client using SvelteKit, Firebase, and Tailwind CSS.
 
-## Creating a project
+## 🌐 Live Demo
 
-If you're seeing this, you've probably already done this step. Congrats!
+[View Live Demo](jlt.davidbosnic.dev)
+
+## 📖 About
+
+This project was developed for a therapist client who needed a platform to provide mental health information and resources to their patients. The application features a clean, accessible design focused on delivering therapeutic content and educational materials in a user-friendly format.
+
+## 🛠️ Tech Stack
+
+- **SvelteKit** - Full-stack Svelte framework for optimal performance
+- **Firebase** - Real-time database and backend services
+- **Tailwind CSS** - Responsive, utility-first styling
+
+## ✨ Features
+
+- Mental health resource library
+- Responsive design optimized for all devices
+- Real-time content management through Firebase
+- Clean, therapeutic-focused UI/UX
+- Accessible design principles
+
+## 🚀 Running Locally
+
+To explore the codebase locally:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# Clone the repository
+git clone https://github.com/yourusername/just-like-therapy.git
+cd just-like-therapy
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# Install dependencies
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Start development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## ⚠️ Portfolio Note
 
-To create a production version of your app:
+This repository showcases a demo version created for a client project. The live demo demonstrates the functionality and design approach. Content shown is for demonstration purposes only and should not be considered professional medical advice.
 
-```bash
-npm run build
-```
+---
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+_Professional web development showcasing modern full-stack technologies_
