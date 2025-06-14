@@ -27,11 +27,12 @@ This project was developed for a therapist client who needed a platform to provi
 ## 🚀 Running Locally
 
 To explore the codebase locally:
+**Have Vite installed**
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/just-like-therapy.git
-cd just-like-therapy
+git clone https://github.com/David-Bosnic/JustLikeTherapy
+cd JustLikeTherapy
 
 # Install dependencies
 npm install
