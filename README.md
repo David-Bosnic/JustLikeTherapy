@@ -1,4 +1,4 @@
-# Just Like Therapy
+# JustLikeTherapy
 
 A mental health information platform built for a therapist client using SvelteKit, Firebase, and Tailwind CSS.
 
@@ -25,6 +25,7 @@ This project was developed for a therapist client who needed a platform to provi
 - Accessible design principles
 
 ## 🚀 Running Locally
+
 **Have Vite installed locally**
 
 To explore the codebase locally:
