@@ -25,9 +25,9 @@ This project was developed for a therapist client who needed a platform to provi
 - Accessible design principles
 
 ## 🚀 Running Locally
+**Have Vite installed locally**
 
 To explore the codebase locally:
-**Have Vite installed**
 
 ```bash
 # Clone the repository
