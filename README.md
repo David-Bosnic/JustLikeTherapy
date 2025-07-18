@@ -48,4 +48,4 @@ This repository showcases a demo version created for a client project. The live 
 
 ---
 
-_Professional web development showcasing modern full-stack technologies_
+
